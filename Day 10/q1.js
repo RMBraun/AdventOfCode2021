@@ -62,4 +62,6 @@ module.exports = {
       log
     )
   },
+  OPEN_CLOSE_MAP,
+  getChunks,
 }

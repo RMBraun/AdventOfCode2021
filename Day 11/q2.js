@@ -1,3 +1,4 @@
+const { get, set, reduce, map, slice } = require('@rybr/lenses')
 const { getOctopusGrid, getAdjacentPoints, getFlashPoints, processFlashes, incGrid } = require('./q1')
 
 const areAllZero = grid => grid.every(row => row.every(point => point.val === 0))

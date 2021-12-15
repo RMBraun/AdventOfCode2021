@@ -4,6 +4,6 @@ Array.prototype.get = function () {
   return get(this, ...[...arguments].reverse())
 }
 
-const { run } = require('./Day 12/q2')
+const { run } = require('./Day 13/q2')
 
 run()

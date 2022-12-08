@@ -7,7 +7,7 @@ const getInputs = path => getRawInput(path).split('\n')
 
 const sumArray = array => array.reduce((acc, curr) => acc + curr, 0)
 
-const log = x => console.log(x) || x
+const log = x => console.log(JSON.stringify(x, null, 2)) || x
 
 const unique = array =>
   get(
